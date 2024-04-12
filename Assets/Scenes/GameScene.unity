@@ -2279,10 +2279,42 @@ PrefabInstance:
       propertyPath: m_Name
       value: House
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
+
+    - target: {fileID: 8410985323073775251, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: soundService
+      value: 
+      objectReference: {fileID: 203687011}
+    - target: {fileID: 8410985323525627662, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: soundService
+      value: 
+      objectReference: {fileID: 203687011}
+    - target: {fileID: 8410985323951209738, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: soundService
+      value: 
+      objectReference: {fileID: 203687011}
+    - target: {fileID: 8410985324532678281, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: soundService
+      value: 
+      objectReference: {fileID: 203687011}
+    - target: {fileID: 8410985324693255829, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: soundService
+      value: 
+      objectReference: {fileID: 203687011}
+    - target: {fileID: 8410985324735834856, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: soundService
+      value: 
+      objectReference: {fileID: 203687011}
+    - target: {fileID: 8410985324760981946, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+      propertyPath: soundService
+      value: 
+      objectReference: {fileID: 203687011}
+    m_RemovedComponents:
+    - {fileID: 8410985324760981946, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+    - {fileID: 6752750673610657977, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+    - {fileID: 8410985324735834856, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+    - {fileID: 3542250534102899431, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+    - {fileID: 6752750674094668609, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
+    
   m_SourcePrefab: {fileID: 100100000, guid: d2470b45bfcea9e4780d1866d7cd0f8c, type: 3}
 --- !u!65 &8225950124344110251
 BoxCollider:
