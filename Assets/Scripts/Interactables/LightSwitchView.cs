@@ -11,15 +11,13 @@ public class LightSwitchView : MonoBehaviour, IInteractable
     public delegate void LightSwitchDelegate();//Created delegate - signature
     public static LightSwitchDelegate LightSwitch;//Instance
 
-    private void OnEnable() //Adding Function to delegate
-    {
-        LightSwitch += LightToggeled;
-    }
+    private void OnEnable() => LightSwitch += LightToggeled; //Adding Function to delegate
+    private void OnDisable() => LightSwitch -= LightToggeled; //unsub listner/observer
 
     public void Interact()
     {
         //Todo - Implement Interaction
-        LightSwitch.Invoke();
+        LightSwitch?.Invoke(); // ?. does a null check before Invoking
     }
     private void toggleLights()
     {
