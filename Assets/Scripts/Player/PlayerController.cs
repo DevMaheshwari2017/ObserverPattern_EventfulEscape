@@ -28,7 +28,6 @@ public class PlayerController
         LightSwitchView.OnLightSwitchToggled += onLightSwitch;
 
         playerState = PlayerState.InDark;
-        LightSwitchView.LightSwitch += PlayerSanityToggeled;
     }
 
     ~PlayerController()
