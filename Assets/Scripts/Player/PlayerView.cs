@@ -9,6 +9,13 @@ public class PlayerView : MonoBehaviour
     private Rigidbody playerRigidbody;
     private PlayerController playerController;
 
+    private void Awake()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+#if !UNITY_EDITOR && UNITY_WEBGL
+        WebGLInput.stickyCursorLock = true;
+#endif
+    }
     private void Start() => playerRigidbody = GetComponent<Rigidbody>();
 
     private void Update()
