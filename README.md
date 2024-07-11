@@ -27,6 +27,9 @@ Implementing the Observer Pattern in Unity was both a challenge and a significan
 ## Preview 
 
 
+### [Web-To-Play](https://outscal.com/devmaheswari2017/game/play-horror-escape-game-26-game)
+
+### Gameplay video :
 
 [![Horror Escape Gameplay Video](https://img.youtube.com/vi/kHvy5tBBDOw/0.jpg)](https://www.youtube.com/watch?v=kHvy5tBBDOw)
  
